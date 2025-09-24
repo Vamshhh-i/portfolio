@@ -3,27 +3,28 @@ import { Code, Coffee, Lightbulb, Target } from "lucide-react";
 
 const About = () => {
   const highlights = [
-    {
-      icon: Code,
-      title: "5+ Years Experience",
-      description: "Building web applications with modern technologies"
-    },
-    {
-      icon: Target,
-      title: "Result-Oriented",
-      description: "Focused on delivering high-quality, scalable solutions"
-    },
-    {
-      icon: Lightbulb,
-      title: "Innovation Driven",
-      description: "Always exploring new technologies and best practices"
-    },
-    {
-      icon: Coffee,
-      title: "Team Player",
-      description: "Collaborative approach to problem-solving"
-    }
-  ];
+  {
+    icon: Code,
+    title: "Full-Stack Dev",
+    description: "Built scalable web applications with Flask, React, and MySQL"
+  },
+  {
+    icon: Target,
+    title: "Problem Solver",
+    description: "Strong in critical thinking and tackling complex challenges"
+  },
+  {
+    icon: Lightbulb,
+    title: "ML & Data",
+    description: "Experience in ML model development and predictive analytics"
+  },
+  {
+    icon: Coffee,
+    title: "Fast Learner",
+    description: "Adaptable, quick to learn new technologies, and collaborative"
+  }
+];
+
 
   return (
     <section id="about" className="section-padding bg-background">

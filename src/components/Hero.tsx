@@ -39,14 +39,21 @@ const Hero = () => {
             >
               View My Work
             </Button>
-            <Button 
-              variant="outline"
-              size="lg"
-              className="border-primary/30 text-foreground hover:bg-primary/10 px-8 py-6 text-lg glass-effect"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
+            <a
+              href="/Vamshi_Resume_2.pdf"
+              download="Vamshi_Resume_2.pdf"
+              target="_blank"
+              rel="noopener noreferrer">
+              <Button 
+                variant="outline"
+                size="lg"
+                className="border-primary/30 text-foreground hover:bg-primary/10 px-8 py-6 text-lg glass-effect"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download Resume
+              </Button>
+            </a>
+
           </div>
           
           {/* Social Links */}

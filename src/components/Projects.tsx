@@ -2,10 +2,11 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
-import ecommerceImg from "@/assets/project-ecommerce.jpg";
-import taskManagerImg from "@/assets/project-taskmanager.jpg";
-import analyticsImg from "@/assets/project-analytics.jpg";
-import learningImg from "@/assets/project-learning.jpg";
+import ecommerceImg from "@/assets/project-ecommerce.png";
+import taskManagerImg from "@/assets/project-taskmanager.png";
+import analyticsImg from "@/assets/project-analytics.png";
+import learningImg from "@/assets/project-learning.png";
+import learningImg1 from "@/assets/project-learning1.png";
 
 const Projects = () => {
   const projects = [
@@ -48,7 +49,7 @@ const Projects = () => {
 {
   title: "ATM Operations",
   description: "A simulation of core ATM functionalities including account authentication, balance inquiry, cash withdrawal, and deposit operations. Designed to practice secure transaction handling and efficient system flow.",
-  image:learningImg,
+  image:learningImg1,
   technologies: ["Python", "OOP", "File Handling"],
   liveUrl: "http://kvamshi132.pythonanywhere.com",
   githubUrl: "https://github.com/vamshhh-i/ATM_OPERATIONS",

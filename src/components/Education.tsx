@@ -27,7 +27,7 @@ const Education = () => {
   title: "Machine Learning Intern",
   issuer: "DHAAPPS Edutech (OPC) Pvt. Ltd., Hyderabad",
   date: "Apr 2023 – Jun 2023",
-  credentialId: "ML-INT-2023",
+  credentialId: "#",
   description: "Designed and evaluated ML models in Python, improving predictive accuracy by 15%. Performed preprocessing, model building, and dataset evaluation."
 },
 {
